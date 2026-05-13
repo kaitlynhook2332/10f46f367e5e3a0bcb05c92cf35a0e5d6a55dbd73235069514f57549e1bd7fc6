@@ -1,3 +1,3 @@
-module cli_tool_ec3732
+module cli_tool_11c54a
 
 go 1.21

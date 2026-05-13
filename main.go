@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	appName = "cli-tool-ec3732"
+	appName = "cli-tool-11c54a"
 	version = "1.1.0"
 )
 
